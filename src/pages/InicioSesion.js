@@ -36,7 +36,6 @@ const InicioSesion = () => {
     }
   };
 
-
 return (
   <div className="form-container">
     <Header />

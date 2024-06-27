@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from '../api/config'; // Importa la instancia de Axios configurada
+import api from '../api/config'; 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/registro.css';

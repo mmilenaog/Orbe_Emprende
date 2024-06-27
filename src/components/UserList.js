@@ -13,7 +13,7 @@ const UserList = () => {
         setUsers(response.data);
       } catch (error) {
         console.error('Error fetching users:', error);
-        setError(error.message); // Guarda el mensaje de error en el estado
+        setError(error.message); 
       }
     };
 

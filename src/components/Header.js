@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../imagens/logo_Orbe.png"; // Asegúrate de importar correctamente la ruta de tu logo
-import "../styles/header.css"; // Ajusta la ruta según la ubicación de tus estilos
+import logo from "../imagens/logo_Orbe.png"; 
+import "../styles/header.css"; 
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         </Link>
       </div>
       <nav className="nav">
-        {/* Aquí agregarías tus elementos de navegación */}
+       
       </nav>
     </header>
   );

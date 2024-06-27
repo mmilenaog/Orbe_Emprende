@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Importa useNavigate para navegación programática
-import api from '../api/config'; // Asegúrate de importar tu instancia de Axios configurada
+import { useNavigate } from 'react-router-dom'; 
+import api from '../api/config'; 
 import Header from '../components/Header';
 
 const IngresoAdministrativo = () => {
@@ -9,7 +9,7 @@ const IngresoAdministrativo = () => {
     contraseña: ''
   });
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Utiliza useNavigate para navegación programática
+  const navigate = useNavigate(); 
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -25,7 +25,7 @@ const IngresoAdministrativo = () => {
       navigate('/dashboard'); // Navegar a la página de dashboard u otra página después de iniciar sesión
     } catch (err) {
       console.error(err);
-      setError('Credenciales incorrectas. Inténtalo de nuevo.'); // Mensaje de error genérico para propósitos de demostración
+      setError('Credenciales incorrectas. Inténtalo de nuevo.'); 
     }
   };
 
