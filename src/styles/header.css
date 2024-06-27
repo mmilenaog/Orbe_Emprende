@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  justify-items: left ;
+  }
+  
+  .logo-container {
+    margin-left: 20px; /* Ajusta según tu preferencia de margen */
+  }
+  
+  .logo {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+  }
+

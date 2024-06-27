@@ -1,0 +1,67 @@
+.mi-pagina-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  color: darkgoldenrod;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 100px); /* Ajusta según la altura del header */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-message {
+  margin-top: 20px;
+}
+
+
+p .Emp1 {
+  margin-top: 100px;
+}
+
+p .Emp2 {
+  margin-top: 100px;
+}
+
+
+.user-details p {
+  margin: 5px 0;
+}
+
+h3 {
+  margin-top: 550px;
+}
+
+.sidebar-links {
+  list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-links li {
+  margin: 10px 0;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  font-size: medium;
+  color: darkgoldenrod;;
+}
+
+.sidebar-links a:hover {
+  text-decoration: underline;
+}
